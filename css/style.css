@@ -1,0 +1,132 @@
+body {
+    background-color: #FFF9FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+button {
+    box-shadow: 2px 5px #C8A2C8;
+    border: 1px solid #C8A2C8;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+button:hover{
+    width: 110px;
+}
+
+#main-index{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+#main-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid #C8A2C8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #C8A2C8;
+    align-items: center;
+}
+
+#name, #lastname, #email{
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+    border: 0.5px solid #C8A2C8;
+    padding: 5px;
+    border-radius: 5px;
+}
+#email:hover{
+    border: 2px solid #c99ac9;
+}
+#lastname:hover{
+    border: 2px solid #c99ac9;
+}
+#name:hover{
+    border: 2px solid #c99ac9;
+}
+
+#msg {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0.5px solid #C8A2C8;
+    resize: none; 
+}
+#msg:hover{
+    border: 2px solid #c99ac9;
+}
+
+#submit {
+    border: 0.5px solid #C8A2C8;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+#submit:hover{
+    border: 2px solid #C8A2C8;
+}
+
+#about-me{
+    width: 600px;
+    padding: 20px;
+}
+
+#pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pic-profile{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 2px 5px #C8A2C8;
+    border: 1px solid #C8A2C8;
+}
+
+#main-proyects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer{
+    position: relative;
+}
+

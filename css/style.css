@@ -60,7 +60,7 @@ li{
     list-style: none;
 }
 
-button {
+button{
     font-family: 'Cantarell';
     box-shadow: 2px 5px #C8A2C8;
     border: 1px solid #C8A2C8;
@@ -75,6 +75,20 @@ button:hover {
     width: 60px;
 }
 
+#input-form {
+    font-family: 'Cantarell';
+    box-shadow: 2px 5px #C8A2C8;
+    border: 1px solid #C8A2C8;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: 105px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+#input-form:hover{
+    width: 110px;
+}
 .pdfs, .btn-li{
     width: 100px;
 }

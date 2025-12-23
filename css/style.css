@@ -4,46 +4,107 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cantarell';
+    color: rgb(34, 1, 34);
 }
 
-header{
+.poller-one-regular {
+    font-family: "Poller One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cantarell-regular {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cantarell-bold {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cantarell-regular-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cantarell-bold-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Poller One';
+}
+
+header {
     display: flex;
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     align-items: center;
+}
+
+li{
+    list-style: none;
 }
 
 button {
+    font-family: 'Cantarell';
     box-shadow: 2px 5px #C8A2C8;
     border: 1px solid #C8A2C8;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
     cursor: pointer;
+    width: 55px;
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 }
-button:hover{
-    width: 110px;
+button:hover {
+    width: 60px;
 }
 
-#main-index{
+.pdfs, .btn-li{
+    width: 100px;
+}
+.pdfs:hover{
+    width: 105px;
+}
+
+.btn-li:hover{
+    width: 105px;
+}
+
+#Netlify-Icon--Streamline-Svg-Logos{
+    height: 15px;
+    width: 15px;
+}
+
+#main-index {
     display: flex;
     align-items: center;
     height: 80vh;
 }
 
-#main-contact{
+span:hover {
+    text-decoration: underline;
+}
+
+#main-contact {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +116,9 @@ form{
     align-items: center;
 }
 
-#name, #lastname, #email{
+#name,
+#lastname,
+#email {
     width: 250px;
     height: 20px;
     margin: 20px;
@@ -63,13 +126,16 @@ form{
     padding: 5px;
     border-radius: 5px;
 }
-#email:hover{
+
+#email:hover {
     border: 2px solid #c99ac9;
 }
-#lastname:hover{
+
+#lastname:hover {
     border: 2px solid #c99ac9;
 }
-#name:hover{
+
+#name:hover {
     border: 2px solid #c99ac9;
 }
 
@@ -80,9 +146,10 @@ form{
     padding: 15px;
     border-radius: 5px;
     border: 0.5px solid #C8A2C8;
-    resize: none; 
+    resize: none;
 }
-#msg:hover{
+
+#msg:hover {
     border: 2px solid #c99ac9;
 }
 
@@ -94,11 +161,13 @@ form{
     cursor: pointer;
     align-items: center;
 }
-#submit:hover{
+
+#submit:hover {
     border: 2px solid #C8A2C8;
+    background-color: rgb(230, 228, 228);
 }
 
-#about-me{
+#about-me {
     width: 600px;
     padding: 20px;
 }
@@ -110,23 +179,65 @@ form{
     justify-content: center;
 }
 
-#pic-profile{
+#pic-profile {
     height: 350px;
     width: 350px;
     border-radius: 50%;
     margin: 20px;
     box-shadow: 2px 5px #C8A2C8;
     border: 1px solid #C8A2C8;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+#pic-profile:hover{
+    width: 360px;
+    height: 360px;
 }
 
-#main-proyects{
+#main-proyects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-footer{
-    position: relative;
+#div-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.div-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.div-p {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 5px #C8A2C8;
+    border: 1px solid #C8A2C8;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.div-p:hover {
+    width: 260px;
+    height: 260px;
+}
+
+.div-p img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-p p {
+    text-align: center;
+    padding: 10px;
+}

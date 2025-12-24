@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const boton_modo = document.getElementById('btn-modo');
     const body = document.body;
     const titulo = document.querySelector('h1');
-
     let oscuro = localStorage.getItem("modoOscuro") === "true";
 
     if (oscuro) {

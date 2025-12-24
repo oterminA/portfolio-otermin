@@ -272,3 +272,96 @@ footer{
     width: 100%;
     align-items:start;
 }
+
+/*parte responsive*/
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #main-index {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    #about-me {
+        width: 100%;
+    }
+
+    #pic-profile {
+        width: 250px;
+        height: 250px;
+    }
+
+    .div-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div-p {
+        width: 220px;
+        height: 220px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #pic-profile {
+        width: 200px;
+        height: 200px;
+    }
+
+    .div-row {
+        grid-template-columns: 1fr;
+    }
+
+    .div-p {
+        width: 90%;
+        height: auto;
+    }
+
+    #name,
+    #lastname,
+    #email,
+    #msg {
+        width: 90%;
+    }
+
+    #submit {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (hover: none) {
+    button:hover,
+    .div-p:hover,
+    #pic-profile:hover {
+        width: auto;
+        height: auto;
+    }
+}

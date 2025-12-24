@@ -9,6 +9,7 @@ body {
     font-family: 'Cantarell';
     color: rgb(34, 1, 34);
     cursor:grab;
+    min-height: 100vh;
 }
 
 a{
@@ -115,7 +116,7 @@ button:hover {
 #main-index {
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 95vh;
 }
 
 span:hover {
@@ -123,7 +124,6 @@ span:hover {
 }
 
 #main-contact {
-    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
